@@ -1,0 +1,30 @@
+
+
+1. **Programação Dinâmica (DP)**:
+   - Instância 1: 31621
+   - Instância 2: 67829
+   - Instância 3: 143449
+   - Instância 4: 28840
+   - Instância 5: 15785
+
+   A programação dinâmica é um método exato que garante a obtenção da solução ótima para o problema da mochila, mas o custo computacional pode ser alto, especialmente para instâncias maiores. Os resultados mostram que o DP encontrou a solução ótima para todas as instâncias.
+
+2. **GRASP (Greedy Randomized Adaptive Search Procedure)**:
+   - Instância 1: 31621
+   - Instância 2: 67829
+   - Instância 3: 143449
+   - Instância 4: 28840
+   - Instância 5: 15785
+
+   O GRASP é uma heurística que combina uma abordagem gulosa (greedy) com busca local. Os resultados mostram que o GRASP também encontrou a solução ótima para todas as instâncias. Isso sugere que a abordagem gulosa usada como parte do GRASP foi suficiente para alcançar a solução ótima nestes casos.
+
+3. **Algoritmo Genético (AG)**:
+   - Instância 1: 31621
+   - Instância 2: 50531
+   - Instância 3: 95736
+   - Instância 4: 26380
+   - Instância 5: 13144
+
+   O algoritmo genético é uma técnica de otimização baseada em população que não garante a obtenção da solução ótima, mas busca encontrar boas soluções em um tempo razoável. Os resultados mostram que o AG encontrou boas soluções, mas não necessariamente as soluções ótimas. As soluções encontradas pelo AG são subótimas em comparação com as soluções encontradas pelo DP e pelo GRASP.
+
+Em resumo, os resultados indicam que o DP e o GRASP foram capazes de encontrar as soluções ótimas para todas as instâncias, enquanto o AG encontrou soluções subótimas, mas em um tempo muito mais curto. A escolha entre esses algoritmos depende das necessidades específicas do problema, do tamanho das instâncias e do equilíbrio entre tempo de execução e qualidade da solução desejada.
